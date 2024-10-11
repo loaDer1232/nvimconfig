@@ -2,6 +2,9 @@
 local opt = vim.opt
 local keymap = vim.keymap
 
+--custom keys
+vim.g.mapleader = " "
+
 --vim settings
 opt.number = true
 opt.relativenumber = true
@@ -11,3 +14,4 @@ opt.expandtab = true
 opt.autoindent =true
 opt.termguicolors = true
 opt.clipboard:append("unnamedplus")
+

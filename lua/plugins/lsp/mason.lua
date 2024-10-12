@@ -15,7 +15,7 @@ return {
 			ensure_installed = {
 				"rust-analyzer",
 				"lua-ls",
-				"pyright",
+				"python-lsp-server",
 				"clangd",
 			},
 		})

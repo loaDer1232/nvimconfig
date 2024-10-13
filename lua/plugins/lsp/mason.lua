@@ -13,15 +13,15 @@ return {
 
 		mason_lspconfig.setup({
 			ensure_installed = {
-				"rust-analyzer",
-				"lua-ls",
-				"python-lsp-server",
+				"rust_analyzer",
+				"lua_ls",
+				"pylsp",
 				"clangd",
 			},
 		})
 		mason_tool_installer.setup({
 			ensure_installed = {
-				--"astyle",   --c, cpp
+				"clang-format", --c, cpp
 				"rustfmt", --rust
 				"prettier", --so much shit
 				"stylua", --lua

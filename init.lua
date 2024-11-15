@@ -1,3 +1,2 @@
-require('core')
-vim.cmd("colorscheme kanagawa")
-
+require("core")
+vim.cmd("colorscheme tokyonight")

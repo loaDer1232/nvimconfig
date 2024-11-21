@@ -17,6 +17,7 @@ return {
 				"lua_ls",
 				"pylsp",
 				"clangd",
+				"texlab",
 			},
 		})
 		mason_tool_installer.setup({
@@ -27,6 +28,7 @@ return {
 				"stylua", --lua
 				"isort", --python
 				"black", --python
+				"latexindent", --LaTeX
 			},
 		})
 	end,

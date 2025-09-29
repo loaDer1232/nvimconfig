@@ -29,6 +29,7 @@ return {
 				"isort", --python
 				"black", --python
 				"latexindent", --LaTeX
+				"slint-lsp", --slint ui lang
 			},
 		})
 	end,
